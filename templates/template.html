@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Desk Motion Monitor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desk Motion Monitor</h1>
+    <p><strong>Current Status:</strong> {{ status }}</p>
+    <h2>History</h2>
+    <ul>
+        {% for entry in history %}
+        <li>{{ entry }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
