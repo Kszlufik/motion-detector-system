@@ -21,12 +21,12 @@ Current desk status.
 Historical activity logs
 
 Hardware Requirements
-Raspberry Pi (tested on Raspberry Pi 4B).
-PIR Motion Sensor.
-Breadboard and jumper wires for prototyping (although not nescessary)
-Internet connection for the Raspberry Pi.
+Raspberry Pi tested on Raspberry Pi 4B
+PIR Motion Sensor
+Breadboard and jumper wires for prototyping lthough not nescessary
+Internet connection for the Raspberry Pi
 Software Requirements
-Python 3.6+ installed on the Raspberry Pi.
+Python 3.6 and +  installed on the Raspberry Pi.
 MATLAB for ThingSpeak-based email alert functionality.
 
 Required Python libraries:
